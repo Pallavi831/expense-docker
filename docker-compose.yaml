@@ -22,6 +22,7 @@ networks:
       - mysql:/var/lib/mysql
 
   frontend:
+   services:
       image: frontend:2.0.0
       networks:
       - expense
