@@ -10,3 +10,4 @@ RUN npm install
 #ENV DB_HOST="localhost"
 USER expense
 CMD ["node","index.js"]
+
