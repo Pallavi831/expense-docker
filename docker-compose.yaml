@@ -13,7 +13,7 @@ services:
     depends_on:
     - mysql
 
-  # docker run -d --name mysql --network expense -v mysql:/var/lib/mysql mysql:1.0.0
+  # docker run -d --name mysql --network expense -v mysql:/var/lib/mysql mysql:2.0.0
   mysql:
     image: pallavi122/mysql:2.0.0
     networks:
